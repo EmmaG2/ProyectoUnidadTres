@@ -27,12 +27,9 @@ public class CarAnimation extends JPanel {
 
         add(buttonPanel, BorderLayout.NORTH);
 
-        // Panel para el carrito (usamos null layout para mover el JLabel libremente)
         panel = new JPanel(null);
-        panel.setBackground(Color.RED);
         add(panel, BorderLayout.CENTER);
 
-        // Crear el JLabel con la imagen del carrito
         ImageIcon carIcon = new ImageIcon("/Users/emmanuelgranados/Desktop/Programacion/java/RealTimeChat2/car.jpg"); // Cambia "car.jpg" a la ruta correcta de tu imagen
         carLabel = new JLabel();
         carLabel.setIcon(carIcon);
